@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="d:\program files (x86)\microsoft visual studio\2017\enterprise\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="15.0">
+ <Targets>
+  <Target Name="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\bin\Debug\ThoughtWorks.QRCode.dll">
+   <Modules>
+    <Module Name="thoughtworks.qrcode.dll">
+     <Namespaces>
+      <Namespace Name="ThoughtWorks.QRCode.Codec">
+       <Types>
+        <Type Name="QRCodeDecoder" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#decodeBytes(ThoughtWorks.QRCode.Codec.Data.QRCodeImage)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2017-12-02 01:29:17Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode" File="QRCodeDecoder.cs" Line="185">'QRCodeDecoder.decodeBytes(QRCodeImage)' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getDecodedByteArray(System.Int32[],System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2017-12-02 01:29:17Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode" File="QRCodeDecoder.cs" Line="466">'QRCodeDecoder.getDecodedByteArray(int[], int, int)' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="QRCodeEncoder" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#calculateRSECC(System.SByte[],System.SByte,System.SByte[],System.Int32,System.Int32)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2017-12-02 01:29:17Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode" File="QRCodeEncoder.cs" Line="743">可以在方法 'QRCodeEncoder.calculateRSECC(sbyte[], sbyte, sbyte[], int, int)' 中多次释放对象 'memoryStream'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 743</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#calQrcode(System.Byte[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2017-12-02 01:29:17Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode" File="QRCodeEncoder.cs" Line="465">可以在方法 'QRCodeEncoder.calQrcode(byte[])' 中多次释放对象 'memoryStream'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 465</Issue>
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode" File="QRCodeEncoder.cs" Line="512">可以在方法 'QRCodeEncoder.calQrcode(byte[])' 中多次释放对象 'memoryStream'。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 512</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="ThoughtWorks.QRCode.Codec.Data">
+       <Types>
+        <Type Name="QRCodeSymbol" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.Boolean[][])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2017-12-02 01:29:17Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\data" File="QRCodeSymbol.cs" Line="21">'QRCodeSymbol.QRCodeSymbol(bool[][])' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;QRCodeSymbol..ctor(Boolean[][])&#xD;&#xA;QRCodeSymbol.initialize():Void。</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\data" File="QRCodeSymbol.cs" Line="21">'QRCodeSymbol.QRCodeSymbol(bool[][])' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;QRCodeSymbol..ctor(Boolean[][])&#xD;&#xA;QRCodeSymbol.initialize():Void&#xD;&#xA;QRCodeSymbol.calcDataCapacity():Int32&#xD;&#xA;QRCodeSymbol.get_Version():Int32。</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\data" File="QRCodeSymbol.cs" Line="21">'QRCodeSymbol.QRCodeSymbol(bool[][])' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;QRCodeSymbol..ctor(Boolean[][])&#xD;&#xA;QRCodeSymbol.initialize():Void&#xD;&#xA;QRCodeSymbol.decodeFormatInformation(Boolean[]):Void。</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\data" File="QRCodeSymbol.cs" Line="21">'QRCodeSymbol.QRCodeSymbol(bool[][])' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;QRCodeSymbol..ctor(Boolean[][])&#xD;&#xA;QRCodeSymbol.initialize():Void&#xD;&#xA;QRCodeSymbol.readFormatInformation():Boolean[]。</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\data" File="QRCodeSymbol.cs" Line="21">'QRCodeSymbol.QRCodeSymbol(bool[][])' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;QRCodeSymbol..ctor(Boolean[][])&#xD;&#xA;QRCodeSymbol.initialize():Void&#xD;&#xA;QRCodeSymbol.readFormatInformation():Boolean[]&#xD;&#xA;QRCodeSymbol.getElement(Int32, Int32):Boolean。</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\data" File="QRCodeSymbol.cs" Line="21">'QRCodeSymbol.QRCodeSymbol(bool[][])' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;QRCodeSymbol..ctor(Boolean[][])&#xD;&#xA;QRCodeSymbol.initialize():Void&#xD;&#xA;QRCodeSymbol.unmask():Void。</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\data" File="QRCodeSymbol.cs" Line="21">'QRCodeSymbol.QRCodeSymbol(bool[][])' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;QRCodeSymbol..ctor(Boolean[][])&#xD;&#xA;QRCodeSymbol.initialize():Void&#xD;&#xA;QRCodeSymbol.unmask():Void&#xD;&#xA;QRCodeSymbol.generateMaskPattern():Boolean[][]。</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\data" File="QRCodeSymbol.cs" Line="21">'QRCodeSymbol.QRCodeSymbol(bool[][])' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;QRCodeSymbol..ctor(Boolean[][])&#xD;&#xA;QRCodeSymbol.initialize():Void&#xD;&#xA;QRCodeSymbol.unmask():Void&#xD;&#xA;QRCodeSymbol.generateMaskPattern():Boolean[][]&#xD;&#xA;QRCodeSymbol.get_Height():Int32。</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\data" File="QRCodeSymbol.cs" Line="21">'QRCodeSymbol.QRCodeSymbol(bool[][])' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;QRCodeSymbol..ctor(Boolean[][])&#xD;&#xA;QRCodeSymbol.initialize():Void&#xD;&#xA;QRCodeSymbol.unmask():Void&#xD;&#xA;QRCodeSymbol.generateMaskPattern():Boolean[][]&#xD;&#xA;QRCodeSymbol.get_MaskPatternReferer():Int32。</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\data" File="QRCodeSymbol.cs" Line="21">'QRCodeSymbol.QRCodeSymbol(bool[][])' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;QRCodeSymbol..ctor(Boolean[][])&#xD;&#xA;QRCodeSymbol.initialize():Void&#xD;&#xA;QRCodeSymbol.unmask():Void&#xD;&#xA;QRCodeSymbol.generateMaskPattern():Boolean[][]&#xD;&#xA;QRCodeSymbol.get_Width():Int32。</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\data" File="QRCodeSymbol.cs" Line="21">'QRCodeSymbol.QRCodeSymbol(bool[][])' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;QRCodeSymbol..ctor(Boolean[][])&#xD;&#xA;QRCodeSymbol.initialize():Void&#xD;&#xA;QRCodeSymbol.unmask():Void&#xD;&#xA;QRCodeSymbol.generateMaskPattern():Boolean[][]&#xD;&#xA;QRCodeSymbol.isInFunctionPattern(Int32, Int32):Boolean。</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\data" File="QRCodeSymbol.cs" Line="21">'QRCodeSymbol.QRCodeSymbol(bool[][])' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;QRCodeSymbol..ctor(Boolean[][])&#xD;&#xA;QRCodeSymbol.initialize():Void&#xD;&#xA;QRCodeSymbol.unmask():Void&#xD;&#xA;QRCodeSymbol.generateMaskPattern():Boolean[][]&#xD;&#xA;QRCodeSymbol.isInFunctionPattern(Int32, Int32):Boolean&#xD;&#xA;QRCodeSymbol.get_AlignmentPattern():Point[][]。</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\data" File="QRCodeSymbol.cs" Line="21">'QRCodeSymbol.QRCodeSymbol(bool[][])' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;QRCodeSymbol..ctor(Boolean[][])&#xD;&#xA;QRCodeSymbol.initialize():Void&#xD;&#xA;QRCodeSymbol.unmask():Void&#xD;&#xA;QRCodeSymbol.reverseElement(Int32, Int32):Void。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="ThoughtWorks.QRCode.Codec.Ecc">
+       <Types>
+        <Type Name="BCH15_5" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.Boolean[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2017-12-02 01:29:17Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\ecc" File="BCH15_5.cs" Line="19">'BCH15_5.BCH15_5(bool[])' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;BCH15_5..ctor(Boolean[])&#xD;&#xA;BCH15_5.createGF16():Int32[][]。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ReedSolomon" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.Int32[],System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2017-12-02 01:29:17Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\ecc" File="ReedSolomon.cs" Line="26">'ReedSolomon.ReedSolomon(int[], int)' 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: &#xD;&#xA;&#xD;&#xA;ReedSolomon..ctor(Int32[], Int32)&#xD;&#xA;ReedSolomon.initializeGaloisTables():Void。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="ThoughtWorks.QRCode.Codec.Reader">
+       <Types>
+        <Type Name="QRCodeDataBlockReader" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#DataByte" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Accessors>
+            <Accessor Name="#get_DataByte()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+             <Messages>
+              <Message TypeName="DoNotRaiseExceptionsInUnexpectedLocations" Category="Microsoft.Design" CheckId="CA1065" Status="Active" Created="2017-12-02 01:29:17Z" FixCategory="Breaking">
+               <Issue Name="PropertyGetter" Certainty="90" Level="Warning" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\reader" File="QRCodeDataBlockReader.cs" Line="41">'QRCodeDataBlockReader.DataByte.get()' 创建 'InvalidDataBlockException' 类型的异常，该异常类型不应当在属性中引发。如果有可能会引发此异常实例，请使用其他异常类型，将该属性转换为方法，或者更改该属性的逻辑，使它不再引发异常。</Issue>
+               <Issue Name="PropertyGetter" Certainty="90" Level="Warning" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\reader" File="QRCodeDataBlockReader.cs" Line="51">'QRCodeDataBlockReader.DataByte.get()' 创建 'InvalidDataBlockException' 类型的异常，该异常类型不应当在属性中引发。如果有可能会引发此异常实例，请使用其他异常类型，将该属性转换为方法，或者更改该属性的逻辑，使它不再引发异常。</Issue>
+               <Issue Name="PropertyGetter" Certainty="90" Level="Warning" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\reader" File="QRCodeDataBlockReader.cs" Line="55">'QRCodeDataBlockReader.DataByte.get()' 创建 'InvalidDataBlockException' 类型的异常，该异常类型不应当在属性中引发。如果有可能会引发此异常实例，请使用其他异常类型，将该属性转换为方法，或者更改该属性的逻辑，使它不再引发异常。</Issue>
+               <Issue Name="PropertyGetter" Certainty="90" Level="Warning" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\reader" File="QRCodeDataBlockReader.cs" Line="97">'QRCodeDataBlockReader.DataByte.get()' 创建 'InvalidDataBlockException' 类型的异常，该异常类型不应当在属性中引发。如果有可能会引发此异常实例，请使用其他异常类型，将该属性转换为方法，或者更改该属性的逻辑，使它不再引发异常。</Issue>
+               <Issue Name="PropertyGetter" Certainty="90" Level="Warning" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\reader" File="QRCodeDataBlockReader.cs" Line="101">'QRCodeDataBlockReader.DataByte.get()' 创建 'InvalidDataBlockException' 类型的异常，该异常类型不应当在属性中引发。如果有可能会引发此异常实例，请使用其他异常类型，将该属性转换为方法，或者更改该属性的逻辑，使它不再引发异常。</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="ThoughtWorks.QRCode.Codec.Reader.Pattern">
+       <Types>
+        <Type Name="FinderPattern" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#calcExactVersion(ThoughtWorks.QRCode.Geom.Point[],System.Int32[],System.Int32[],System.Boolean[][])" Kind="Method" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2017-12-02 01:29:17Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\reader\pattern" File="FinderPattern.cs" Line="710">'FinderPattern.calcExactVersion(Point[], int[], int[], bool[][])' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#findFinderPattern(System.Boolean[][])" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2017-12-02 01:29:17Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\reader\pattern" File="FinderPattern.cs" Line="55">'FinderPattern.findFinderPattern(bool[][])' 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="ThoughtWorks.QRCode.ExceptionHandler">
+       <Types>
+        <Type Name="AlignmentPatternNotFoundException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-12-02 01:29:17Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">向类型 'AlignmentPatternNotFoundException' 中添加对 GetObjectData 的实现。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="DecodingFailedException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-12-02 01:29:17Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">向类型 'DecodingFailedException' 中添加对 GetObjectData 的实现。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="FinderPatternNotFoundException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-12-02 01:29:17Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">向类型 'FinderPatternNotFoundException' 中添加对 GetObjectData 的实现。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="InvalidDataBlockException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-12-02 01:29:17Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">向类型 'InvalidDataBlockException' 中添加对 GetObjectData 的实现。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="InvalidVersionException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-12-02 01:29:17Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">向类型 'InvalidVersionException' 中添加对 GetObjectData 的实现。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="InvalidVersionInfoException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-12-02 01:29:17Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">向类型 'InvalidVersionInfoException' 中添加对 GetObjectData 的实现。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="SymbolNotFoundException" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2017-12-02 01:29:17Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">向类型 'SymbolNotFoundException' 中添加对 GetObjectData 的实现。</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="ThoughtWorks.QRCode.Properties">
+       <Types>
+        <Type Name="Resources" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="ExcludedInSource" Created="2017-12-02 01:29:17Z" FixCategory="NonBreaking" LastSeen="0001-01-01 00:00:00Z" />
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811">
+   <Name>避免使用未调用的私有代码</Name>
+   <Description>存在对外部不可见的未调用代码，该代码不是已知的运行时入口点。如果错误地引发此冲突，请向 Visual Studio 代码分析团队发送问题报告。</Description>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182264.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214">
+   <Name>不要在构造函数中调用可重写的方法</Name>
+   <Description>不应通过构造函数调用类中定义的虚方法。如果某个派生类已重写该虚方法，则将在调用派生类的构造函数前，调用此派生类重写后的方法。</Description>
+   <Resolution Name="Default">{0} 包含调用链，该调用链导致调用此类所定义的虚方法。请检查以下调用堆栈，看是否有意外结果: {1}。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182331.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
+   <File Name="usagerules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotRaiseExceptionsInUnexpectedLocations" Category="Microsoft.Design" CheckId="CA1065">
+   <Name>不要在意外的位置引发异常</Name>
+   <Description>不要从意外的位置显式引发异常。用户不希望某些方法(如 Equals 和 GetHashCode)引发异常。因此，对这些方法的调用通常不包装在 try catch 块中。</Description>
+   <Resolution Name="PropertyGetter">{0} 创建 {1} 类型的异常，该异常类型不应当在属性中引发。如果有可能会引发此异常实例，请使用其他异常类型，将该属性转换为方法，或者更改该属性的逻辑，使它不再引发异常。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb386039.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error, Warning</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240">
+   <Name>正确实现 ISerializable</Name>
+   <Description>如果可将类型赋给 ISerializable，则它应实现 GetObjectData。对于非密封类型，其派生类型应可以调用和重写 GetObjectData 方法。</Description>
+   <Resolution Name="Default">向类型 {0} 中添加对 GetObjectData 的实现。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182342.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="60">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200">
+   <Name>再次引发以保留堆栈详细信息</Name>
+   <Description>重复引发捕获的异常时，请使用 IL 再次引发指令保留原始堆栈详细信息。</Description>
+   <Resolution Name="Default">{0} 再次引发捕获的异常并将其显式地指定为一个参数。请改用不带参数的“throw”以保留该异常最初引发时所在的堆栈位置。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182363.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="15.0.0.0" />
+  </Rule>
+  <Rule TypeName="不要多次释放对象" Category="Microsoft.Usage" CheckId="CA2202">
+   <Name>不要多次释放对象</Name>
+   <Description>可以多次调用正确实现的 Dispose 方法，而不会引发异常。但是，并不保证所有情况下都会如此。若要避免生成 System.ObjectDisposedException，您不应对一个对象多次调用 Dispose。</Description>
+   <Resolution Name="Default">可以在方法 {1} 中多次释放对象 {0}。若要避免生成 System.ObjectDisposedException，不应对一个对象多次调用 Dispose。: Lines: 743</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182334.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="15.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">类别</String>
+  <String Key="Certainty">确定性</String>
+  <String Key="CollapseAll">全部折叠</String>
+  <String Key="CheckId">检查 ID</String>
+  <String Key="Error">错误</String>
+  <String Key="Errors">错误</String>
+  <String Key="ExpandAll">全部展开</String>
+  <String Key="Help">帮助</String>
+  <String Key="Line">行</String>
+  <String Key="Messages">消息</String>
+  <String Key="LocationNotStoredInPdb">[位置未存储在 Pdb 中]</String>
+  <String Key="Project">项目</String>
+  <String Key="Resolution">解析</String>
+  <String Key="Rule">规则</String>
+  <String Key="RuleFile">规则文件</String>
+  <String Key="RuleDescription">规则说明</String>
+  <String Key="Source">源</String>
+  <String Key="Status">状态</String>
+  <String Key="Target">目标</String>
+  <String Key="Warning">警告</String>
+  <String Key="Warnings">警告</String>
+  <String Key="ReportTitle">代码分析报告</String>
+ </Localized>
+</FxCopReport>

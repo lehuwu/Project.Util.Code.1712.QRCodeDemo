@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:此处输入名字
+TEL:此处输入电话
+EMAIL:此处输入email
+ADR:此处输出地址
+ORG:此处输入组织
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+FN:此处输入名字
+TEL:此处输入电话
+EMAIL:此处输入email
+ADR:此处输出地址
+ORG:此处输入组织
+END:VCARD

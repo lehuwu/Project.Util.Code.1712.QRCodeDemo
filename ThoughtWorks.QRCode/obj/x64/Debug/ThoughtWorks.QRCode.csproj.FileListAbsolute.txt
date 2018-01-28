@@ -1,0 +1,14 @@
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\bin\x64\Debug\ThoughtWorks.QRCode.dll
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\bin\x64\Debug\ThoughtWorks.QRCode.pdb
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\obj\x64\Debug\ThoughtWorks.QRCode.Properties.Resources.resources
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\obj\x64\Debug\ThoughtWorks.QRCode.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\obj\x64\Debug\ThoughtWorks.QRCode.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\obj\x64\Debug\ThoughtWorks.QRCode.dll
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\obj\x64\Debug\ThoughtWorks.QRCode.pdb
+D:\aserfend\workSpace\repos\projects\QRCode生成\ThoughtWorks.QRCode\bin\x64\Debug\ThoughtWorks.QRCode.dll
+D:\aserfend\workSpace\repos\projects\QRCode生成\ThoughtWorks.QRCode\bin\x64\Debug\ThoughtWorks.QRCode.pdb
+D:\aserfend\workSpace\repos\projects\QRCode生成\ThoughtWorks.QRCode\obj\x64\Debug\ThoughtWorks.QRCode.Properties.Resources.resources
+D:\aserfend\workSpace\repos\projects\QRCode生成\ThoughtWorks.QRCode\obj\x64\Debug\ThoughtWorks.QRCode.csproj.GenerateResource.Cache
+D:\aserfend\workSpace\repos\projects\QRCode生成\ThoughtWorks.QRCode\obj\x64\Debug\ThoughtWorks.QRCode.csproj.CoreCompileInputs.cache
+D:\aserfend\workSpace\repos\projects\QRCode生成\ThoughtWorks.QRCode\obj\x64\Debug\ThoughtWorks.QRCode.dll
+D:\aserfend\workSpace\repos\projects\QRCode生成\ThoughtWorks.QRCode\obj\x64\Debug\ThoughtWorks.QRCode.pdb

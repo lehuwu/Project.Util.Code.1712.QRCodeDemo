@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\联系人名片\bin\Debug\联系人名片.exe.config
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\联系人名片\bin\Debug\联系人名片.exe
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\联系人名片\bin\Debug\联系人名片.pdb
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\联系人名片\obj\Debug\联系人名片.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\联系人名片\obj\Debug\联系人名片.FromMain.resources
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\联系人名片\obj\Debug\联系人名片.Properties.Resources.resources
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\联系人名片\obj\Debug\联系人名片.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\联系人名片\obj\Debug\联系人名片.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\联系人名片\obj\Debug\联系人名片.exe
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\联系人名片\obj\Debug\联系人名片.pdb
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\联系人名片\bin\Debug\ThoughtWorks.QRCode.dll
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\联系人名片\bin\Debug\ThoughtWorks.QRCode.pdb

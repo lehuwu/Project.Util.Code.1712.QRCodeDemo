@@ -1,0 +1,17 @@
+E:\GitHub\QRCodeTools\ThoughtWorks.QRCode\bin\Debug\ThoughtWorks.QRCode.dll
+E:\GitHub\QRCodeTools\ThoughtWorks.QRCode\bin\Debug\ThoughtWorks.QRCode.pdb
+E:\GitHub\QRCodeTools\ThoughtWorks.QRCode\obj\Debug\ThoughtWorks.QRCode.Properties.Resources.resources
+E:\GitHub\QRCodeTools\ThoughtWorks.QRCode\obj\Debug\ThoughtWorks.QRCode.csproj.GenerateResource.Cache
+E:\GitHub\QRCodeTools\ThoughtWorks.QRCode\obj\Debug\ThoughtWorks.QRCode.dll
+E:\GitHub\QRCodeTools\ThoughtWorks.QRCode\obj\Debug\ThoughtWorks.QRCode.pdb
+E:\GitHub\QRCodeTools\ThoughtWorks.QRCode\obj\Debug\ThoughtWorks.QRCode.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\bin\Debug\ThoughtWorks.QRCode.dll
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\bin\Debug\ThoughtWorks.QRCode.pdb
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\obj\Debug\ThoughtWorks.QRCode.Properties.Resources.resources
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\obj\Debug\ThoughtWorks.QRCode.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\obj\Debug\ThoughtWorks.QRCode.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\obj\Debug\ThoughtWorks.QRCode.dll
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\obj\Debug\ThoughtWorks.QRCode.pdb
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\bin\Debug\ThoughtWorks.QRCode.dll.CodeAnalysisLog.xml
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\bin\Debug\ThoughtWorks.QRCode.dll.lastcodeanalysissucceeded
+C:\Users\Administrator\Desktop\temp\QRCode\QRCodeTools-master\ThoughtWorks.QRCode\obj\Debug\ThoughtWorks.QRCode.csprojResolveAssemblyReference.cache
